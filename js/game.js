@@ -27,7 +27,7 @@ class Game {
 
     //game audio controls
     this.music = new Audio();
-    this.music.src = '../audio/music.mp3';
+    this.music.src = './audio/music.mp3';
     this.music.volume = 0.05;
     this.music.loop = true;
   }
